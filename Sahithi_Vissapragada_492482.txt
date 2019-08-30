@@ -1,0 +1,10 @@
+1. c) Key Binding
+2. c) ngOnClick
+3. c) ng build --prod
+4. c) AIT
+5. d) Using Services
+6. c) JIT is the preferred way to build for production environment
+7. a) Spring Security provides Network and Applicatoin level security
+8. a) BcryptPasswordEncoder
+9. b) AuthenticationManager
+10. a) The Authentication object will be removed from the ThreadLocal one the response is flused.

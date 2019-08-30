@@ -1,0 +1,52 @@
+Git commands
+
+1)Clone a repository and push your changes
+----------------------------------------
+git clone <repourl>
+cd <folder>
+git push origin master
+
+2)In case of permission denied
+------------------------------
+Pull the branch - git pull origin master
+git push origin master
+
+
+3)To stage the changes
+----------------------
+git add <filename>
+
+4)To unstage
+------------
+git reset HEAD <filename> - unstages the file in the current commit
+
+5)To undo the changes made in the file
+--------------------------------------
+git checkout <filename>
+
+6)Create new branch from current branch
+-------------------------------------
+git branch -b <newbranch>
+
+(or)
+
+git branch <branchname>
+git checkout <branchname>
+
+7)To know the branch we are working on
+--------------------------------------
+git branch - shows the branch we are working on
+
+8)Merge the child branch into master
+----------------------------------
+git checkout master
+git merge <childbranchname>
+
+9)Create a branch locally and push it repo
+-------------------------------------------
+git checkout -b <newchildbranch> - This creates a branch locally
+git push origin <newchildbranch> - This pushes the branch into the repo
+
+10)To get the list of branches
+-------------------------------
+git pull origin
